@@ -40,7 +40,7 @@ auth_ui <- function(id, status = "primary", tag_img = NULL, tag_div = NULL) {
               tags$div(
                 style = "text-align: center;",
                 if (!is.null(tag_img)) tag_img,
-                tags$h3(lan$get("Please authenticate"))
+                tags$h3(lan$get("Please"))
               ),
               tags$br(),
               textInput(
